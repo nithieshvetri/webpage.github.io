@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    GANGA HOSPITAL 
+  </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serifs;
+  font-size:14px;
+  font-style:italic;
+  background-color: aliceblue;
+}
+
+.topnav {
+  overflow:auto;
+  background-color:brown;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:aqua;
+}
+
+.topnav a.active {
+  background-color: darkturquoise;
+  color: white;
+}
+
+* {box-sizing: border-box}
+
+body {
+  font-family: Verdana, sans-serif; 
+  margin:0;
+  }
+.mySlides {display: none}
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+    
+    <div class="topnav">
+        <div class="prvn-logo">
+            <a href="#"><img loading="lazy" src="http://www.gangahospital.com/images/logo.jpg" alt="LOGO"style=" width:200px; height:50"></a> </div>
+        
+        <a class="active" href="index.html">HOME</a>
+        <a href="image.html">GALLERY</a>
+        <a href="registration.html">APPOINTMENT FORM</a>
+        <a href="doctor.html">DOCTOR'S LIST</a>
+        <a href="fund.html">FUNDS</a>
+      </div>
+      
+      <div style="padding-left:16px">
+      </div>
+<br><br><br>      
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="https://cdn.expresshealthcare.in/wp-content/uploads/2020/07/04172757/Architecture_Discipline-Life_CMF-Pg9_v1-750x400.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUHFGfe1K-TL90YCBzQ4tDBykAelVh_-MK8A&usqp=CAU.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF7fCfM30h7WTM8RxGyj1xPH_QIOeaB_797Q&usqp=CAU.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUePiNxFEx5UmWlMIrJjonVNRmhYvqzJ7P_w&usqp=CAU.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+    
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="https://www.narayanahealth.org/sites/default/files/Beental-Jaipur-Banner_1.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span>  
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<br><br><br><p><h1>FOUNDATION</h1></p>
+<br><br><br>
+<ul>
+    <li>Ganga Nursing Home was started in 1978 by Dr.J.G.Shanmuganathan & Mrs.Shanmuganathan. The strength of the hospital was 17 beds. With subsequent expansions in bed strength and 'State of the art' facilities, it is now comparable to any western institution</li>
+    <li>In 1990 the Shanmuganathan Kanakavalli Speciality Centre was started by Dr.S.Raja Sabapathy and Dr.S.Rajasekaran after their return, in honour of their parents.</li>
+    <li> The thrust was on introducing newer and latest techniques in various fields of Accident Surgery, Trauma and Spinal Surgery, the introduction of Microsurgical procedures, Reconstruction of severly injured limbs, replantation of completely amputated parts, advanced skeletal fixation. Reconstructive system, Microsurgery system to establish the hospital as one of the premier institutions of the country</li>
+    <li>Starting with 786 in-patients and 2686 out patients in 1992, there was a steady growth to 4900 in-patients and 9000 out patients in 1999. </li>
+    <li> Patients are reffered not only from across the length and width of the country but also from the neighbouring countries. The hospital is now firmly established as one of the premier tertiary referral centres in this part of the world.
+    </li>
+    </ul><br><br><br>
+    <p><h3><center>CONTACT DETAILS</center></h3></p><br>
+    <p><h5><center>GANGA MEDICAL CENTRE & HOSPITALS PVT LTD,<br><br>
+COIMBATORE<br><br>
+TAMILNADU<br><br>
+638321<br><br>
+INDIA<br><br>
+EMAILID:gangahospital@gmail.com<br><br>
+OFFICIAL NUMBER:04256-2222222<br><br>
+CONTACT NUMBER:8903985727 &9080820969<br><br>
+<a href="https://www.google.com/maps/dir//Ganga+Hospital,+Ganesapuram,+Kamaraj+Nagar,+Namakkal,+Tamil+Nadu+637001/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3babce933c998b91:0xe3a99ea25d9f5659?sa=X&ved=2ahUKEwjN7OPx7sLqAhV8yzgGHcXlCzAQ48ADMAB6BAgNEBw">Click here to see our location in google map</a>
+    </center></h5></p>
+</body>
+</html> 
